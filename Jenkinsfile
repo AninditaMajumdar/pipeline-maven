@@ -13,7 +13,7 @@ sh '''
 ./jenkins/build/build.sh
 '''
 }
-            post{
+          /*  post{
                 success{
                     archiveArtifacts artifacts: 'java-app/target/*.jar', fingerprint: true
                 }
@@ -37,7 +37,7 @@ sh './jenkins/push/push.sh'
 stage('deploy') {
 steps{
 sh './jenkins/deploy/deploy.sh'
-}
+}*/
 }
 }
 }
