@@ -1,1 +1,1 @@
-# pipeline-maven2
+# pipeline-maven
